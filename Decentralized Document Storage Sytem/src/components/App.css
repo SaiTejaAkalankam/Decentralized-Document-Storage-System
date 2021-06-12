@@ -1,0 +1,111 @@
+/* Styles go here */
+
+
+.container{
+    height: 500px;
+    width: 100%;
+    margin: 0 auto
+}
+.photo{
+    margin-top: 100px;
+    width: 50%;
+    background-color: #209dd8;
+    padding: 50px;
+}
+.container-form{
+    margin-top: 20px;
+}
+#hero .container-fluid {
+    padding: 172px;
+    height: 90vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+  }
+
+  #mydocs{
+    height: 110vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+  }
+  #cardd{
+    height: 450px;
+    overflow: auto;
+  }
+  #click {
+    height: 100vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+  }
+  #getFile {
+    height: 100vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+  }
+
+  #getsharedFile {
+    height: 100vh;
+    background: #fc00ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00dbde, #fc00ff);
+  }
+  #hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+  #hero h2 {
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 50px;
+    font-size: 24px;
+  }
+  
+  #hero .btn-get-started {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: rgb(50, 50, 50);
+    background: #b6e4fa;
+  }
+  
+  #hero .btn-get-started:hover {
+    background: #209dd8;
+  }
+  #hero .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  }
+  .card{
+      width: 50%;
+      height: auto;
+      margin: auto;
+  }
+  #mydiv {
+    background-color: #ededed;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+  }
+  #link {
+    color: #fc00ff;
+  }
+  #accname {
+    color: #209dd8;
+  }
+  .row {
+    color: #ededed;
+  }
