@@ -42,18 +42,18 @@ contract Image{
     return addre[a].ih.no_of_img;
   }
 
-  function getFiles(address a) public view returns (string[ ] memory){
-    string[ ] memory fileArray = new string[ ](addre[a].fn.nums);
-    for( uint i =0; i< addre[a].fn.nums;i++){
-      fileArray[ i ] = addre[a].fn.file_names[i];
+  function getFiles(address a) public view returns (string[] memory){
+    string[] memory fileArray = new string[](addre[a].fn.nums);
+    for( uint i =0; i< addre[a].fn.nums; i++){
+      fileArray[i] = addre[a].fn.file_names[i];
     }
     return fileArray;
   }
 
-  function getHashes(address a) public view returns (string[ ] memory){
-    string[ ] memory imgArray = new string[ ](addre[a].ih.no_of_img);
-    for( uint i =0; i< addre[a].ih.no_of_img;i++){
-      imgArray[ i ] = addre[a].ih.file_img[ i ];
+  function getHashes(address a) public view returns (string[] memory){
+    string[] memory imgArray = new string[](addre[a].ih.no_of_img);
+    for( uint i =0; i< addre[a].ih.no_of_img; i++){
+      imgArray[i] = addre[a].ih.file_img[i];
     }
    return imgArray;
   }
